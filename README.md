@@ -1,10 +1,27 @@
-# Budget Management
+# Budget Personal Management
 
-Aplicacion Web para la gestión de presupuestos personales en la que puedes depositar, asi como extraer dinero y tambien generar reportes para llevar el seguimiento de tus gastos y ingresos. 
+This consists of a .NET MVC (Model Viev Controller) web application.  
+It allows you to manage personal budgets where you can deposit and
+withdraw money, as well as generate reports to keep track of your daily,
+monthly and annual expenses and income.
 
-Características
-- Manejo de transacciones, cuentas y categorías.
-- Reportes de los estados de cuentas.
-- Manejo de seguridad con login y registro.
+### Features
 
-Tecnologias: Asp.net, c#, Identity.Net, Sql Server, Html, Css, Javascript.
+- Security Management with Authorization and Authentication through Login and Registration using Asp.net Identity 6
+- Database management with Dapper
+- Data persistence using SQL Server
+- Advanced pagination
+- Processing and management of transactions
+- Account management with CRUD operations.
+- Categories management with CRUD operations.
+- Management of Excel reports for weekly, monthly and annual expenses and income.
+
+### Technology tools
+
+- Html, css, Javascript
+- Bootstrap 5
+- Asp.net 6
+- Dapper
+- Asp.net Identity 6
+- C# 11
+- Nuget dependency manager
